@@ -54,7 +54,6 @@ function getTooltip({ object }) {
     Direction: ${object[DATA_INDEX.TRUE_TRACK] || 0}°`
   );
 }
-
 export class GoogleMapsDeckOverlay {
   constructor(map) {
     this.loader = new DeckAPILoader();
